@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0;
+padding:0; }
+.p img{ 
+margin-left:35px;
+ margin-top:5px;}
+.b{ float:right;
+margin-right:30px;
+margin-top:0px;
+}
+

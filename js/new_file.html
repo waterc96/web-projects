@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>JavaScript嵌入</title>
+	</head>
+	<body>
+		<h1>这是一个测试</h1>
+		<p id="demo">一个段落</p>
+		<button type="button" onclick="myfuction()"> 尝试一下</button>
+		<div id="myDIV">一个div块</div>
+		<p>
+		<script src="new_file.js">	
+
+		</script>
+		</p>
+		
+		<script >
+			function myfuction(){
+			document.getElementById("demo").innerHTML="你好Dolly";
+			document.getElementById("myDIV").innerHTML="你最近怎么样?";
+		}
+		</script>
+	</body>
+</html>
